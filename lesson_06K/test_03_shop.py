@@ -57,5 +57,5 @@ driver.quit()
 @pytest.mark.test_03
 def test_set_comparison():
     set1 = set(total)
-    set2 = set("58.29")
+    set2 = set("Total: $58.29")
     assert set1 == set2
