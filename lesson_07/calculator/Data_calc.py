@@ -1,11 +1,11 @@
 from selenium.webdriver.common.by import By
+from config import b_url
 
 
 class Data_calc:
     def __init__(self, driver):
         self._driver = driver
-        self._driver.get(
-            "https://bonigarcia.dev/selenium-webdriver-java/slow-calculator.html")
+        self._driver.get(b_url)
         self._driver.implicitly_wait(4)
         self._driver.maximize_window()
 

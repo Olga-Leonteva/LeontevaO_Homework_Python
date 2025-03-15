@@ -1,17 +1,17 @@
 from selenium import webdriver
 import pytest
-from shop.ShopPage import ShopPage
-from shop.SwagLabsPage import SwagLabsPage
-from shop.YourInformationPage import YourInformationPage
-from shop.CartPage import CartPage
-from shop.ShopResultPage import ShopResultPage
+from ShopPage import ShopPage
+from SwagLabsPage import SwagLabsPage
+from YourInformationPage import YourInformationPage
+from CartPage import CartPage
+from ShopResultPage import ShopResultPage
 
 
 @pytest.mark.test_shop_page
 def test_shop():
     browser = webdriver.Chrome()
     swag_labs = SwagLabsPage(browser)
-    swag_labs.autoauthorization("standard_user", "secret_sauce")
+    swag_labs.authorization("standard_user", "secret_sauce")
     shop = ShopPage(browser)
     shop.add_products()
     cart_page = CartPage(browser)

@@ -16,16 +16,14 @@ TEST_DATA = {
     "company": "SkyPro"
 }
 
-browser = webdriver.Chrome()
 
-
-def open_form():
+def open_form(browser):
     # Открытие страницы
     browser.get(
         'https://bonigarcia.dev/selenium-webdriver-java/data-types.html')
 
 
-def data():
+def data(browser):
     # Заполнение формы
     for field, value in TEST_DATA.items():
         # Селектор для заполнения формы
@@ -33,12 +31,12 @@ def data():
             By.CSS_SELECTOR, f'input[name="{field}"]').send_keys(value)
 
 
-def click_button():
+def click_button(browser):
     # Нажатие кнопки Submit
     browser.find_element(By.CSS_SELECTOR, '.btn').click()
 
 
-def t_color():
+def t_color(browser):
     # Проверка подсветки полей
     for field in TEST_DATA.keys():
         # Селектор для проверки результата
@@ -53,7 +51,7 @@ def t_color():
                 field} не подсвечено зеленым"
 
 
-def close_driver():
+def close_driver(browser):
     browser.quit()
 
 
@@ -61,7 +59,7 @@ def close_driver():
 def test_form():
     browser = webdriver.Chrome()
     open_form(browser)
-    data()
-    click_button()
-    t_color()
-    close_driver()
+    data(browser)
+    click_button(browser)
+    t_color(browser)
+    close_driver(browser)

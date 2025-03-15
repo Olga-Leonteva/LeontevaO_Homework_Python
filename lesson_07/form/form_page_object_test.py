@@ -1,6 +1,6 @@
 from selenium import webdriver
 import pytest
-from form.FormPage import FormPage
+from FormPage import FormPage
 
 
 @pytest.mark.test_form_page
