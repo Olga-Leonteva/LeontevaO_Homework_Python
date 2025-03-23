@@ -3,8 +3,8 @@ import pytest
 
 
 base_url = 'https://ru.yougile.com/api-v2/'
-login = 'panakushinaoa@gmail.com'
-password = 'Leonteva05'
+login = 'login'
+password = 'password'
 name = 'Поток_100'
 company_id = 'f76a47ef-881d-4dfd-a124-857a668b03a8'
 
@@ -66,7 +66,7 @@ def put_correction(new_title, user_id, project_id):
 
 
 # Создание ногового проекта
-@pytest.mark.test_post
+@pytest.mark.test_01_post
 def test_post(user_id):
     # Получить количество компаний до
     body = get_project()
@@ -80,7 +80,7 @@ def test_post(user_id):
     assert body[-1]["title"] == title
 
 
-@pytest.mark.test_get
+@pytest.mark.test_02_get
 def test_get(user_id):
     # Создать проект
     title = 'Кот и пес'
@@ -90,7 +90,7 @@ def test_get(user_id):
     assert project_seach["deleted"] is True
 
 
-@pytest.mark.test_put
+@pytest.mark.test_03_put
 def test_put(user_id):
     # Создать проект
     title = 'От улыбки с танет всем теплей'
