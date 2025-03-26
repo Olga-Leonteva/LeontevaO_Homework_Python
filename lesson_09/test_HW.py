@@ -44,8 +44,9 @@ def test_update():
     connection = db.connect()
     transaction = connection.begin()
 
-    sql = text("UPDATE subject SET subject_title = :title WHERE id = :id")
-    connection.execute(sql, {"title": 'Astronomy', "id": 16})
+    sql = text(
+        "UPDATE subject SET subject_title = :title WHERE subject_id = :id")
+    connection.execute(sql, {"title": 'Astronomy', "id": '16'})
 
     transaction.commit()
     connection.close()
@@ -57,7 +58,7 @@ def test_delete():
     connection = db.connect()
     transaction = connection.begin()
 
-    sql = text("DELETE FROM subject WHERE id = :id")
+    sql = text("DELETE FROM subject WHERE subject_id = :id")
     connection.execute(sql, {"id": 16})
 
     transaction.commit()
