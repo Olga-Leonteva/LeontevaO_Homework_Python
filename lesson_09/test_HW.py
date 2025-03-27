@@ -31,10 +31,14 @@ def test_insert():
     connection = db.connect()
     transaction = connection.begin()
 
-    sql = text("INSERT INTO subject(\"subject_title\", \"subject_id\") VALUES (:new_title, :new_id)")
+    sql = text(
+        "INSERT INTO subject(\"subject_title\", \"subject_id\") VALUES (:new_title, :new_id)")
     connection.execute(sql, {"new_title": "Technology", "new_id": 16})
 
-    transaction.commit()
+    res = connection.execute(text(
+        "SELECT * FROM subject WHERE subject_id = :id"), {"id": 16})
+    assert res.fetchone() is not None
+    transaction.rollback()  # всегда откатываем изменения после теста
     connection.close()
 
 
@@ -45,10 +49,18 @@ def test_update():
     transaction = connection.begin()
 
     sql = text(
+        "INSERT INTO subject(\"subject_title\", \"subject_id\") VALUES (:new_title, :new_id)")
+    connection.execute(sql, {"new_title": "Technology", "new_id": 16})
+
+    res = connection.execute(text(
+        "SELECT * FROM subject WHERE subject_id = :id"), {"id": 16})
+
+    sql = text(
         "UPDATE subject SET subject_title = :title WHERE subject_id = :id")
     connection.execute(sql, {"title": 'Astronomy', "id": '16'})
 
-    transaction.commit()
+    assert res.fetchone() is not None
+    transaction.rollback()  # всегда откатываем изменения после теста
     connection.close()
 
 
@@ -58,8 +70,16 @@ def test_delete():
     connection = db.connect()
     transaction = connection.begin()
 
+    sql = text(
+        "INSERT INTO subject(\"subject_title\", \"subject_id\") VALUES (:new_title, :new_id)")
+    connection.execute(sql, {"new_title": "Technology", "new_id": 16})
+
+    res = connection.execute(text(
+        "SELECT * FROM subject WHERE subject_id = :id"), {"id": 16})
+
     sql = text("DELETE FROM subject WHERE subject_id = :id")
     connection.execute(sql, {"id": 16})
 
-    transaction.commit()
+    assert res.fetchone() is not None
+    transaction.rollback()  # всегда откатываем изменения после теста
     connection.close()
