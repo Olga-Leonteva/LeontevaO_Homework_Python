@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07b27b94-be2f-46e5-8b50-c4a947b9761a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/lesson_09/test_HW.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_09/test_HW.py" afterDir="false" />
-    </list>
+    <list default="true" id="07b27b94-be2f-46e5-8b50-c4a947b9761a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,16 +21,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.pytest for form_page_object_test.test_form.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_lesson_08.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;lesson9&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.language&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.pytest for form_page_object_test.test_form.executor": "Run",
+    "Python tests.pytest for test_HW.test_delete.executor": "Run",
+    "Python tests.pytest for test_HW.test_insert.executor": "Run",
+    "Python tests.pytest for test_HW.test_update.executor": "Run",
+    "Python.test_lesson_08.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "lesson9",
+    "settings.editor.selected.configurable": "configurable.group.language"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Python tests.pytest for test_HW.test_delete">
     <configuration name="pytest for form_page_object_test.test_form" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="LeontevaO_Homework_Python" />

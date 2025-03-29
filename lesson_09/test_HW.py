@@ -35,9 +35,10 @@ def test_insert():
         "INSERT INTO subject(\"subject_title\", \"subject_id\") VALUES (:new_title, :new_id)")
     connection.execute(sql, {"new_title": "Technology", "new_id": 16})
 
-    res = connection.execute(text(
-        "SELECT * FROM subject WHERE subject_id = :id"), {"id": 16})
-    assert res.fetchone() is not None
+    result = connection.execute(text("SELECT * FROM subject"))
+    rows = result.mappings().all()   # Получаем результат в виде словарей
+    count = len(rows)
+    assert count == 16
     transaction.rollback()  # всегда откатываем изменения после теста
     connection.close()
 
@@ -59,7 +60,10 @@ def test_update():
         "UPDATE subject SET subject_title = :title WHERE subject_id = :id")
     connection.execute(sql, {"title": 'Astronomy', "id": '16'})
 
-    assert res.fetchone() is not None
+    res_new = connection.execute(text(
+        "SELECT * FROM subject WHERE subject_id = :id"), {"id": 16})
+
+    assert res != res_new
     transaction.rollback()  # всегда откатываем изменения после теста
     connection.close()
 
@@ -74,12 +78,12 @@ def test_delete():
         "INSERT INTO subject(\"subject_title\", \"subject_id\") VALUES (:new_title, :new_id)")
     connection.execute(sql, {"new_title": "Technology", "new_id": 16})
 
-    res = connection.execute(text(
-        "SELECT * FROM subject WHERE subject_id = :id"), {"id": 16})
-
     sql = text("DELETE FROM subject WHERE subject_id = :id")
     connection.execute(sql, {"id": 16})
 
-    assert res.fetchone() is not None
+    result = connection.execute(text("SELECT * FROM subject"))
+    rows = result.mappings().all()   # Получаем результат в виде словарей
+    count = len(rows)
+    assert count == 15
     transaction.rollback()  # всегда откатываем изменения после теста
     connection.close()
