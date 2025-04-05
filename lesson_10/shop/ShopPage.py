@@ -17,9 +17,12 @@ class ShopPage:
     def add_products(self):
         """Функция добавления товаров в корзину, нажатие кнопок Add to cart"""
         # Добавляем товары в корзину
-        self._driver.find_element(
-            By.CSS_SELECTOR, '#add-to-cart-sauce-labs-backpack').click()
-        self._driver.find_element(
-            By.CSS_SELECTOR, '#add-to-cart-sauce-labs-bolt-t-shirt').click()
-        self._driver.find_element(
-            By.CSS_SELECTOR, '#add-to-cart-sauce-labs-onesie').click()
+        with allure.step("Добавить backpack"):
+            self._driver.find_element(
+                By.CSS_SELECTOR, '#add-to-cart-sauce-labs-backpack').click()
+        with allure.step("Добавить t-shirt"):
+            self._driver.find_element(
+                By.CSS_SELECTOR, '#add-to-cart-sauce-labs-bolt-t-shirt').click()
+        with allure.step("Добавить onesie"):
+            self._driver.find_element(
+                By.CSS_SELECTOR, '#add-to-cart-sauce-labs-onesie').click()
