@@ -13,7 +13,8 @@ class Kinopoisk_UI:
 
     def title_home_page(self):
         title = self.waiter.until(
-            EC.element_to_be_clickable(By.CSS_SELECTOR, '.kinopoisk-header-logo__img'))
+            EC.element_to_be_clickable(
+                By.CSS_SELECTOR, '.kinopoisk-header-logo__img'))
         title.get_attribute('alt')
         return title
 
