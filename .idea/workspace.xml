@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="585b3ca1-854d-4d06-8eb4-3712e53d685c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/LeontevaO_Homework_Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LeontevaO_Homework_Python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_07/form/form_metod_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,24 +34,65 @@
     "Python tests.pytest for test_api.test_seach_name_person.executor": "Run",
     "Python tests.pytest for test_api.test_seach_wrong_category.executor": "Run",
     "Python tests.pytest for test_api.test_seach_wrong_id.executor": "Run",
+    "Python tests.pytest for test_primer.test_button_login.executor": "Run",
+    "Python tests.pytest for test_primer.test_film_reee.executor": "Run",
     "Python tests.pytest for test_primer.test_home_page.executor": "Run",
+    "Python tests.pytest for test_primer.test_home_page_1.executor": "Run",
+    "Python tests.pytest for test_primer.test_quick_search.executor": "Run",
+    "Python tests.pytest for test_primer.test_random_seach.executor": "Run",
+    "Python tests.pytest for test_ui.test_button_login.executor": "Run",
+    "Python tests.pytest for test_ui.test_film_free.executor": "Run",
     "Python tests.pytest for test_ui.test_film_reee.executor": "Run",
     "Python tests.pytest for test_ui.test_home_page.executor": "Run",
     "Python tests.pytest for test_ui.test_quick_search.executor": "Run",
     "Python tests.pytest for test_ui.test_random_seach.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "diplom"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.pytest for test_ui.test_home_page">
+  <component name="RunManager" selected="Python tests.pytest for test_primer.test_random_seach">
+    <configuration name="pytest for test_primer.test_button_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="LeontevaO_Homework_Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leonteva_Diplom_Kinopoisk/UI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_primer.test_button_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_primer.test_film_reee" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="LeontevaO_Homework_Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leonteva_Diplom_Kinopoisk/UI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_primer.test_film_reee&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test_primer.test_home_page" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="LeontevaO_Homework_Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Diplom_Kinopoisk/UI" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leonteva_Diplom_Kinopoisk/UI" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -64,81 +103,47 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_ui.test_film_reee" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_primer.test_quick_search" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="LeontevaO_Homework_Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Diplom_Kinopoisk/UI" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leonteva_Diplom_Kinopoisk/UI" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_ui.test_film_reee&quot;" />
+      <option name="_new_target" value="&quot;test_primer.test_quick_search&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_ui.test_home_page" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_primer.test_random_seach" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="LeontevaO_Homework_Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Diplom_Kinopoisk/UI" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Leonteva_Diplom_Kinopoisk/UI" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_ui.test_home_page&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_ui.test_quick_search" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="LeontevaO_Homework_Python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Diplom_Kinopoisk/UI" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_ui.test_quick_search&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_ui.test_random_seach" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="LeontevaO_Homework_Python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Diplom_Kinopoisk/UI" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_ui.test_random_seach&quot;" />
+      <option name="_new_target" value="&quot;test_primer.test_random_seach&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_ui.test_home_page" />
+        <item itemvalue="Python tests.pytest for test_primer.test_random_seach" />
+        <item itemvalue="Python tests.pytest for test_primer.test_film_reee" />
+        <item itemvalue="Python tests.pytest for test_primer.test_button_login" />
+        <item itemvalue="Python tests.pytest for test_primer.test_quick_search" />
         <item itemvalue="Python tests.pytest for test_primer.test_home_page" />
-        <item itemvalue="Python tests.pytest for test_ui.test_quick_search" />
-        <item itemvalue="Python tests.pytest for test_ui.test_film_reee" />
-        <item itemvalue="Python tests.pytest for test_ui.test_random_seach" />
       </list>
     </recent_temporary>
   </component>
@@ -159,5 +164,15 @@
       <updated>1743775983149</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Leonteva_Diplom_Kinopoisk/UI/Kinopoisk_UI.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
