@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="585b3ca1-854d-4d06-8eb4-3712e53d685c" name="Changes" comment="" />
+    <list default="true" id="585b3ca1-854d-4d06-8eb4-3712e53d685c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,33 +24,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.pytest for Kinopoisk_API.test_seach_film_by_title.executor": "Run",
-    "Python tests.pytest for form_page_object_test.test_form.executor": "Run",
-    "Python tests.pytest for test_api.test_primer.executor": "Run",
-    "Python tests.pytest for test_api.test_seach_film_by_title.executor": "Run",
-    "Python tests.pytest for test_api.test_seach_film_person_id.executor": "Run",
-    "Python tests.pytest for test_api.test_seach_name_person.executor": "Run",
-    "Python tests.pytest for test_api.test_seach_wrong_category.executor": "Run",
-    "Python tests.pytest for test_api.test_seach_wrong_id.executor": "Run",
-    "Python tests.pytest for test_primer.test_button_login.executor": "Run",
-    "Python tests.pytest for test_primer.test_film_reee.executor": "Run",
-    "Python tests.pytest for test_primer.test_home_page.executor": "Run",
-    "Python tests.pytest for test_primer.test_home_page_1.executor": "Run",
-    "Python tests.pytest for test_primer.test_quick_search.executor": "Run",
-    "Python tests.pytest for test_primer.test_random_seach.executor": "Run",
-    "Python tests.pytest for test_ui.test_button_login.executor": "Run",
-    "Python tests.pytest for test_ui.test_film_free.executor": "Run",
-    "Python tests.pytest for test_ui.test_film_reee.executor": "Run",
-    "Python tests.pytest for test_ui.test_home_page.executor": "Run",
-    "Python tests.pytest for test_ui.test_quick_search.executor": "Run",
-    "Python tests.pytest for test_ui.test_random_seach.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "diplom"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.pytest for Kinopoisk_API.test_seach_film_by_title.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for form_page_object_test.test_form.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_api.test_primer.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_api.test_seach_film_by_title.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_api.test_seach_film_person_id.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_api.test_seach_name_person.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_api.test_seach_wrong_category.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_api.test_seach_wrong_id.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_primer.test_button_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_primer.test_film_reee.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_primer.test_home_page.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_primer.test_home_page_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_primer.test_quick_search.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_primer.test_random_seach.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_ui.test_button_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_ui.test_film_free.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_ui.test_film_reee.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_ui.test_home_page.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_ui.test_quick_search.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_ui.test_random_seach.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;diplom__01&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python tests.pytest for test_primer.test_random_seach">
     <configuration name="pytest for test_primer.test_button_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="LeontevaO_Homework_Python" />
